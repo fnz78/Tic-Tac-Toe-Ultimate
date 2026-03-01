@@ -1,0 +1,5 @@
+{
+  "name": "Tic-Tac-Toe Ultimate",
+  "description": "A feature-rich Tic-Tac-Toe game with multiple board sizes, custom symbols, and AI opponents.",
+  "requestFramePermissions": []
+}
