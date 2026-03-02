@@ -12,6 +12,7 @@ import { BoardState, GameSettings, Player, Score } from './types';
 import { motion, AnimatePresence } from 'motion/react';
 import { RefreshCw, Trophy } from 'lucide-react';
 import Confetti from 'react-confetti';
+import { Analytics } from '@vercel/analytics/react';
 
 // Simple hook to get window size
 const useWindowSize = () => {
@@ -271,9 +272,9 @@ function App() {
 
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
 
 export default App;
-
